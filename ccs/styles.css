@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Quicksand:wght@600&display=swap');
+
+*{
+   font-family: 'Josefin Sans', sans-serif;
+   box-sizing: border-box;
+}
+/*  rasgos generales */
+
+header{
+    background-color:#3b3d59;
+}
+body{
+    background-color: #3b3d59;
+}
+footer{
+    background-color: #3b3d59;
+}
+.titulo2{
+    font-size: 40px;
+}
+.subtitulo2{
+    font-size: 30px;
+}
+h1{
+    font-size: 75px;
+}
+h2{
+    font-size: 50px;
+}
+/*terminos de rasgos generales de la pagina*/
+
+/*peliculas de la pagina*/
+img{
+    border-radius: 10px;
+    width: 100%;
+    height:280px ;
+    object-fit: cover;
+    background-size: cover;
+    
+}
+.imagen-portada{
+    width: 100%;
+    height:650px ;
+    border-radius: 1px;
+    object-fit: cover;
+    background-size: cover;
+
+}
+p{
+    font-size: 25px;
+    
+}
+.tarjetas1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.tarjetas2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.tarjetas3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.tarjeta{
+    width: 450px;
+    justify-content: center;
+    object-fit:cover;
+
+}
+
+/* termino de peliculas de la pagina*/
+
+/* navegador*/
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+    padding: 40px;
+    
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+/*termino de navegador*/
+
+/*creacion del formulario*/
+
+.formulario1{
+    border: solid  black;
+    width:600px;
+    padding:20px 40px;
+    margin: 10px auto;
+    background-color: chocolate;
+    text-align: center;
+    border-radius: 5px;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+   
+    
+}
+.formulario2{
+    border: solid  black;
+    width: 600px;
+    padding:40px 60px ;
+    margin: 10px auto;
+    background-color: chocolate;
+    text-align: center;
+    border-radius: 5px;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+
+}
+.formulario1 input{
+    margin: 10px auto;
+    border:2px;
+    padding: 20px 100px;
+    border-radius: 5px;
+    font-size: 25px;
+    
+}
+.formulario2 input{
+    border:2px;
+    padding: 20px 100px;
+    border-radius: 5px;
+    font-size: 25px;
+    
+}
+.ingresar{
+    background-color: blueviolet;
+    border: solid black;
+    text-align: left;
+    width: 100px;
+    height: 40px;
+     
+    
+}
+.registro{
+    background-color: blueviolet;
+    border: solid black;
+    text-align:left;
+    width: 100px;
+    height: 40px; 
+
+}
+/*termino formulario*/
