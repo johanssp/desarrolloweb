@@ -8,13 +8,13 @@
 /*  rasgos generales */
 
 header{
-    background-color:#3b3d59;
+    background-color:#015e89;
 }
 body{
-    background-color: #3b3d59;
+    background: color #6788a3;;
 }
 footer{
-    background-color: #3b3d59;
+    background-color:#015e89 ;
 }
 .titulo2{
     font-size: 40px;
@@ -93,6 +93,7 @@ nav ul{
     list-style: none;
     display: flex;
     justify-content: end;
+    flex-wrap: wrap;
 }
 /*termino de navegador*/
 
@@ -158,3 +159,39 @@ nav ul{
 
 }
 /*termino formulario*/
+/*footer*/
+.icono{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.contactos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    justify-content:center;
+    
+}
+/*termino footer*/
+@media(min-width:576px){
+    body{
+        background-color: rgba(23, 94, 160, 0.407);
+    } 
+    header{
+         background-color: rgba(23, 94, 160, 0.407);
+    } 
+    footer{
+        background-color: rgba(23, 94, 160, 0.407);
+    } 
+}
+@media(min-width:800px){
+    header{
+        background-color:#015e89 ;
+    }
+    body{
+        background-color:#6788a3;
+    }
+    footer{
+        background-color:#015e89 ;
+    }
+}
