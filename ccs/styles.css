@@ -103,33 +103,30 @@ nav ul{
     width:600px;
     padding:20px 40px;
     margin: 10px auto;
-    background-color: chocolate;
+    background-color:rgb(160, 221, 172) ;
     text-align: center;
     border-radius: 5px;
     flex-direction: column;
     display: flex;
-    gap: 20px;
-    align-items: center;
-   
-    
+    gap: 10px;
+    align-items: center;   
 }
 .formulario2{
     border: solid  black;
     width: 600px;
     padding:40px 60px ;
     margin: 10px auto;
-    background-color: chocolate;
+    background-color: rgb(160, 221, 174);
     text-align: center;
     border-radius: 5px;
     flex-direction: column;
     display: flex;
-    gap: 20px;
+    gap: 10px;
     align-items: center;
     
 
 }
 .formulario1 input{
-    margin: 10px auto;
     border:2px;
     padding: 20px 100px;
     border-radius: 5px;
