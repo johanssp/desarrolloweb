@@ -4,6 +4,8 @@
 *{
    font-family: 'Josefin Sans', sans-serif;
    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
 }
 /*  rasgos generales */
 
@@ -41,7 +43,7 @@ img{
 }
 .imagen-portada{
     width: 100%;
-    height:100% ;
+    height:800px ;
     border-radius: 1px;
     object-fit: cover;
     background-size: cover;
@@ -76,6 +78,7 @@ p{
     object-fit:cover;
 }
 
+
 /* termino de peliculas de la pagina*/
 
 /* navegador*/
@@ -86,7 +89,11 @@ nav ul li a{
     font-size: 30px;
     display: block;
     padding: 40px;
-    
+    cursor: pointer;    
+}
+nav ul li a:hover{
+    background-color: rgba(0, 255, 255, 0.817);
+    border-radius:8px;
 }
 
 nav ul{
@@ -95,6 +102,8 @@ nav ul{
     justify-content: end;
     flex-wrap: wrap;
 }
+nav .fa-bars{ 
+    display: none;}
 /*termino de navegador*/
 
 /*creacion del formulario*/
@@ -133,7 +142,7 @@ nav ul{
     border-radius: 5px;
     font-size: 30px;
     justify-content: center;
-    text-align: center;
+    text-align:center;
     
 }
 .formulario2 input{
@@ -152,8 +161,10 @@ nav ul{
     width: 100px;
     height: 40px;
     justify-content: center;
-     
-    
+    cursor: pointer;    
+}
+.ingresar:active{
+    background-color: rgba(168, 87, 244);
 }
 .registro{
     background-color: blueviolet;
@@ -161,8 +172,11 @@ nav ul{
     text-align:center;
     width: 100px;
     height: 40px;
-    justify-content: center; 
-
+    justify-content: center;
+    cursor: pointer; 
+}
+.registro:active{
+    background-color: rgb(168, 87, 244);
 }
 /*termino formulario*/
 /*footer*/
@@ -170,17 +184,31 @@ nav ul{
     width: 60px;
     height: 60px;
     object-fit: cover;
+    cursor: pointer;
 }
 .contactos{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-items: center;
-    justify-content:center;
-    
+    grid-template-columns:2fr 1fr 1fr;
+    justify-content: center;
+   
 }
+.reclamos{
+    padding: 15px;
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.redes{
+    font-size: 40px;
+}
+
+
 /*termino footer*/
 /*incorporacion de media query*/
-@media(min-width:576px){
+@media(max-width:639px){
     body{
         background-color: rgba(23, 94, 160, 0.407);
     } 
@@ -189,9 +217,17 @@ nav ul{
     } 
     footer{
         background-color: rgba(23, 94, 160, 0.407);
+    }
+    .contactos{
+        display: grid;
+        grid-template-columns:1fr 1fr ;
+
+    }
+    .redes{
+        grid-column: 1/3;
     } 
 }
-@media(min-width:800px){
+@media(min-width:640px){
     header{
         background-color:#015e89 ;
     }
@@ -201,5 +237,36 @@ nav ul{
     footer{
         background-color:#015e89 ;
     }
+}
+@media(max-width:894px){
+    nav .fa-bars{
+      margin: 10px;
+      font-size: 30px;
+      color: #d1d8de;  
+      order: -1;
+      display: block;
+    }
+    nav .fa-bars:hover + ul{
+        left: 0;
+    }
+   nav ul{
+    position: fixed;
+    top: 0;
+    left: -350px;
+    width: 250px;
+    height: 100vh;
+    background-color: aliceblue;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    transition: 0,5s;
+   } 
+   nav ul:hover{
+    left:0 ;
+   }
+   nav ul li a{
+    color: black;
+    
+   }
 }
 /*termino de media query
