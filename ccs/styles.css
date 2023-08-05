@@ -440,9 +440,7 @@ nav .fa-bars{
         padding: 25px;
         cursor: pointer;
     }
-    nav ul{
-        justify-content:left;
-    }
+    
     .formulario1{
         border: solid  black;
         width:500px;
