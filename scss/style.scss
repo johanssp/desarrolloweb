@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Quicksand:wght@600&display=swap');
+
+*{
+   font-family: 'Josefin Sans', sans-serif;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+/*  rasgos generales */
+
+header{
+    background-color:#015e89;
+}
+body{
+    background: color #6788a3;
+}
+footer{
+    background-color:#015e89 ;
+}
+.titulo2{
+    font-size: 40px;
+}
+.subtitulo2{
+    font-size: 30px;
+}
+h1{
+    font-size: 75px;
+}
+h2{
+    font-size: 50px;
+}
+/*terminos de rasgos generales de la pagina*/
+
+/*peliculas de la pagina*/
+img{
+    border-radius: 10px;
+    width: 100%;
+    height:280px ;
+    object-fit: cover;
+    background-size: cover;
+    &:hover{
+        transform: scale(1.2);
+    }
+    
+}
+.imagen-portada{
+    width: 100%;
+    height:800px ;
+    border-radius: 1px;
+    object-fit: cover;
+    background-size: cover;
+    justify-content: space-between;
+
+}
+p{
+    font-size: 25px;
+    
+}
+.tarjetas1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.tarjetas2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.tarjetas3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.tarjeta{
+    width: 450px;
+    justify-content: center;
+    object-fit:cover;
+}
+.carousel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* termino de peliculas de la pagina*/
+
+/* navegador*/
+nav{ 
+    .fa-bars{ 
+        display: none;
+    }
+    .enlaces{
+        list-style: none;
+        display: flex;
+        justify-content: end;
+        flex-wrap: wrap;
+        li a{
+            color: black;
+            text-decoration: none;
+            font-size: 30px;
+            display: block;
+            padding: 40px;
+            cursor: pointer; 
+            &:hover{
+                background-color: rgba(0, 255, 255, 0.817);
+                border-radius:8px;
+                transform: scale(1.1);
+            }   
+        }
+        
+    }
+}
+/*termino de navegador*/
+
+/*creacion del formulario*/
+
+
+.formulario1{
+    border: solid  black;
+    width:600px;
+    padding:20px 40px;
+    margin: 10px auto;
+    background-color:rgb(160, 221, 172) ;
+    text-align: center;
+    border-radius: 5px;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    .input{
+    border:2px;
+    padding: 15px 120px;
+    border-radius: 5px;
+    font-size: 30px;
+    justify-content: center;
+    text-align:center;
+            
+    }   
+}
+.ingresar{
+    background-color: blueviolet;
+    border: solid black;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    cursor: pointer;
+    &:active{
+        background-color: rgba(168, 87, 244);
+
+    }    
+}
+.formulario2{
+    border: solid  black;
+    width: 600px;
+    padding:40px 60px ;
+    margin: 10px auto;
+    background-color: rgb(160, 221, 174);
+    text-align: center;
+    border-radius: 5px;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    .input{
+        border:2px;
+        padding: 15px 120px;
+        border-radius: 5px;
+        font-size: 30px;
+        justify-content: center;
+        text-align: center;
+    }
+}
+.registro{
+    background-color: blueviolet;
+    border: solid black;
+    text-align:center;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    cursor: pointer;
+    &:active{
+        background-color: rgb(168, 87, 244);
+    } 
+}
+/*termino formulario*/
+/*footer*/
+.contactos{
+    display: grid;
+    grid-template-columns:2fr 1fr 1fr;
+    justify-content: center;
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .reclamos{
+        padding: 15px;
+    }
+    .redes{
+        font-size: 40px;
+        .icono{
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            cursor: pointer;
+        }
+    }
+   
+}
+/*termino footer*/
+@import"mediaquery";
