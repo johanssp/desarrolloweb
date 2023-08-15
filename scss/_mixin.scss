@@ -1,0 +1,12 @@
+@mixin imagen-portada($height){
+  width: 100%;
+  height:$height ;
+  border-radius: 1px;
+  object-fit: cover;
+  background-size: cover;
+  justify-content: space-between;
+  &:hover{
+    transform:scale(0);
+  }
+
+}

@@ -50,7 +50,8 @@
       flex-direction: column;
       display: flex;
       gap: 10px;
-      align-items: center; 
+      align-items: center;
+      box-shadow: $shadow; 
       input{
           border:2px;
           padding: 10px 50px;
@@ -72,6 +73,7 @@
       display: flex;
       gap: 10px;
       align-items: center;
+      box-shadow: $shadow;
       input{
           border:2px;
           padding: 10px 50px;
@@ -167,6 +169,7 @@
       display: flex;
       gap: 10px;
       align-items: center;
+      box-shadow: $shadow;
       input{
           border:2px;
           padding: 10px 40px;
@@ -190,6 +193,7 @@
       display: flex;
       gap: 10px;
       align-items: center;
+      box-shadow: $shadow;
       input{
           border:2px;
           padding: 8px 40px;
@@ -290,6 +294,7 @@
       display: flex;
       gap: 10px;
       align-items: center;
+      box-shadow: $shadow;
       input{
           border:2px;
           padding: 10px 40px;
@@ -313,6 +318,7 @@
       display: flex;
       gap: 10px;
       align-items: center;
+      box-shadow: $shadow;
       input{
           border:2px;
           padding: 8px 40px;
@@ -377,6 +383,7 @@
       display: flex;
       gap: 10px;
       align-items: center;
+      box-shadow:$shadow;
       input{
           border:2px;
           padding: 10px 80px;
@@ -399,6 +406,7 @@
       display: flex;
       gap: 10px;
       align-items: center;
+      box-shadow: $shadow;
       input{
           border:2px;
           padding: 10px 80px;

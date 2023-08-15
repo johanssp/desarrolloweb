@@ -1,0 +1,11 @@
+%img{
+  border-radius: 10px;
+  width: 100%;
+  height:280px ;
+  object-fit: cover;
+  background-size: cover;
+  &:hover{
+      transform: scale(1.2);
+  }
+  
+}
