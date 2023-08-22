@@ -1,0 +1,26 @@
+
+/* inicio footer*/
+.contactos{
+  display: grid;
+  grid-template-columns:2fr 1fr 1fr;
+  justify-content: center;
+  .contacto{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  }
+  .reclamos{
+      padding: 15px;
+  }
+  .redes{
+      font-size: 40px;
+      .icono{
+          width: 60px;
+          height: 60px;
+          object-fit: cover;
+          cursor: pointer;
+      }
+  }
+ 
+}
+/*termino footer*/

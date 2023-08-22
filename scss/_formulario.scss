@@ -1,0 +1,75 @@
+/*inicio del formulario*/
+
+
+.formulario1{
+  border: solid  black;
+  width:600px;
+  padding:20px 40px;
+  margin: 10px auto;
+  background-color:black ;
+  text-align: center;
+  border-radius: 5px;
+  flex-direction: column;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  box-shadow:$shadow;
+  .input{
+  border:2px;
+  padding: 15px 120px;
+  border-radius: 5px;
+  font-size: 30px;
+  justify-content: center;
+  text-align:center;
+  
+          
+  }   
+}
+.ingresar{
+  background-color: blueviolet;
+  border: solid black;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  justify-content: center;
+  cursor: pointer;
+  &:active{
+      background-color: rgba(168, 87, 244);
+
+  }    
+}
+.formulario2{
+  border: solid  black;
+  width: 600px;
+  padding:40px 60px ;
+  margin: 10px auto;
+  background-color: black;
+  text-align: center;
+  border-radius: 5px;
+  flex-direction: column;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  box-shadow:$shadow;
+  .input{
+      border:2px;
+      padding: 15px 120px;
+      border-radius: 5px;
+      font-size: 30px;
+      justify-content: center;
+      text-align: center;
+  }
+}
+.registro{
+  background-color: blueviolet;
+  border: solid black;
+  text-align:center;
+  width: 100px;
+  height: 40px;
+  justify-content: center;
+  cursor: pointer;
+  &:active{
+      background-color: rgb(168, 87, 244);
+  } 
+}
+/*termino formulario*/
