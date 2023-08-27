@@ -13,7 +13,7 @@
   transform: scale(1.2);
 }
 
-/* inicio del head y del navegador*/
+/* inicio del header y del navegador*/
 .cabeza {
   display: flex;
   flex-wrap: wrap;
@@ -78,7 +78,7 @@
   margin-top: 10px;
 }
 
-/*termino del head y del navegador*/
+/*termino del header y del navegador*/
 /* inicio del main y rasgos generales */
 * {
   font-family: "Courgette", cursive;
