@@ -1,5 +1,5 @@
 
-/*  rasgos generales */
+/* inicio del main y rasgos generales */
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Tilt+Prism&display=swap');
 *{
@@ -26,11 +26,11 @@ body{
 }
 .subtitulo2{
   font-size: 25px;
-  color:$color-primary ;
+  color:$color-secundary ;
 }
 h1{
   font-size: 40px;
-  color:$color-primary ;
+  color:$color-secundary ;
 }
 h2{
   font-size: 30px;
@@ -38,7 +38,7 @@ h2{
 }
 /*terminos de rasgos generales de la pagina*/
 
-/*inicio de imagenes de la pagina*/
+/*inicio de peliculas de la pagina*/
 .productos{
   @extend %productos;
 }

@@ -1,17 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Tilt+Prism&display=swap');
-*{
-    font-family:"Courgette", cursive;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-
-}
 @import"variables";
 @import"extend";
 @import"mixin";
-@import"general";
 @import"navegador";
+@import"general";
 @import"formulario";
 @import"footer";
 @import"mediaquery";

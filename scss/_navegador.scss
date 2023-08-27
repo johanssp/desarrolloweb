@@ -1,4 +1,4 @@
-/* inicio del navegador*/
+/* inicio del head y del navegador*/
 .cabeza{
     display: flex;
     flex-wrap: wrap;
@@ -57,8 +57,7 @@
                     text-transform: uppercase;
                     font-size: 25px;
                     transition: .3s;
-                    z-index: 1;
-                    font-family: inherit;
+                    z-index:1;
                     color:$color-primary;
                     margin-top: 10px;
     
@@ -71,6 +70,4 @@
 
     }   
 }
-  /**/
-
-/*termino de navegador*/
+/*termino del head y del navegador*/
