@@ -223,9 +223,9 @@
 }
     .contactos{
       display: grid;
-      grid-template-columns:1fr 1fr;
+      grid-template-columns:1fr;
       .redes{
-          grid-column: 1/3;
+          grid-column:auto;
           .icono{
               width: 40px;
               height: 40px;
@@ -396,9 +396,9 @@
 }
     .contactos{
       display: grid;
-      grid-template-columns:1fr 1fr;
+      grid-template-columns:1fr;
       .redes{
-          grid-column: 1/3;
+          grid-column:auto;
           .icono{
               width: 40px;
               height: 40px;

@@ -490,10 +490,10 @@ p {
   }
   .contactos {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .contactos .redes {
-    grid-column: 1/3;
+    grid-column: auto;
   }
   .contactos .redes .icono {
     width: 40px;
@@ -657,10 +657,10 @@ p {
   }
   .contactos {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .contactos .redes {
-    grid-column: 1/3;
+    grid-column: auto;
   }
   .contactos .redes .icono {
     width: 40px;
