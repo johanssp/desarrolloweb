@@ -1,20 +1,23 @@
 let ver = prompt(
-  "Que pelicula deseas ver? \n 1.-evil dead \n 2.-buscando a nemo \n 3.-dragon ball \n 4.-transformers \n por favor ingresa nombre de pelicula"
+  "Que pelicula deseas ver? \n 1.-evil dead \n 2.-rambo 1 \n 3.-bajo la misma estrella \n 4.-transformers \n 5.-madagascar  \n por favor ingresa un nombre de pelicula"
 );
 let mostrarPrompt = false;
 
 switch (ver) {
   case "evil dead":
-    console.log("LA PELICULA QUE QUIERES VER ES DE TERROR");
+    console.log("La pelicula que quieres ver es de terror");
     break;
-  case "buscando a nemo":
-    console.log("la pelicula es de fantasia");
+  case "rambo 1":
+    console.log("La pelicula que quieres ver es de accion");
     break;
-  case "dragon ball":
-    console.log("la pelicula es de anime");
+  case "bajo la misma estrella":
+    console.log("La pelicula que quieres ver es de romance");
     break;
   case "transformers":
-    console.log("la pelicula es de ciencia ficcion");
+    console.log("La pelicula que quieres ver es de ciencia ficcion");
+    break;
+  case "madagascar":
+    console.log("La pelicula que quieres ver es de animacion");
     break;
 
   default:
@@ -25,23 +28,27 @@ switch (ver) {
 
 while (mostrarPrompt) {
   ver = prompt(
-    "Ingresa una de estas peliculas \n 1.-evil dead \n 2.-buscando a nemo \n 3.-dragon ball \n 4.-transformers \n"
+    "Ingrese una de estas peliculas correctamente \n 1.-evil dead \n 2.-rambo 1 \n 3.-bajo la misma estrella \n 4.-transformers \n 5.-madagascar \n"
   );
   switch (ver) {
     case "evil dead":
-      console.log("LA PELICULA QUE QUIERES VER ES DE TERROR");
+      console.log("La pelicula que quieres ver es de terror");
       mostrarPrompt = false;
       break;
-    case "buscando a nemo":
-      console.log("la pelicula es de fantasia");
+    case "rambo 1":
+      console.log("La pelicula que quieres ver es de accion");
       mostrarPrompt = false;
       break;
-    case "dragon ball":
-      console.log("la pelicula es de anime");
+    case "bajo la misma estrella":
+      console.log("La pelicula que quieres ver es de romance");
       mostrarPrompt = false;
       break;
     case "transformers":
-      console.log("la pelicula es de ciencia ficcion");
+      console.log("La pelicula que quieres ver es de ciencia ficcion");
+      mostrarPrompt = false;
+      break;
+    case "madagascar":
+      console.log("La pelicula que quieres ver es de animacion");
       mostrarPrompt = false;
       break;
 
