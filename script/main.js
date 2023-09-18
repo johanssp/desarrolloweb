@@ -58,3 +58,20 @@ while (mostrarPrompt) {
       break;
   }
 }
+
+let calidad = prompt(
+  "¡En que calidad deseas ver tu pelicula ?\n 1.-1080 \n 2.-720 \n 3.-360 \n 4.-240 \n ingrese una calidad "
+);
+const calidad1 = 1080;
+const calidad2 = 720;
+const calidad3 = 360;
+const calidad4 = 240;
+
+if (calidad == 1080 || calidad == 720) {
+  console.log("la calidad que escogiste es aceptable");
+  alert("tu experiencia sera fantastica");
+}
+if (calidad == 360 || calidad == 240) {
+  console.log("la calidad que escogiste es baja ");
+  alert("tu experiencia no sera muy buena");
+}
