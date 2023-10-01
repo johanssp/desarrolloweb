@@ -27,11 +27,11 @@ Para poner en funcionamiento una copia local, siga estos sencillos pasos de ejem
 
 ### Instalacion
 
-1. Clone the repo
+1. Clonar repositorio
    ```sh
    git clone github.com/johanssp/desarrolloweb.git
    ```
-2. Install NPM packages
+2. Instalar NPM packages
 
    ```sh
    npm install
@@ -43,3 +43,7 @@ Para poner en funcionamiento una copia local, siga estos sencillos pasos de ejem
 👤 **Johans Sanzana**
 
 - GitHub: [@user](https://github.com/johanssp)
+
+## 🤝 Contribuyendo
+
+¡Las opiniones y criticas constructivas son bienvenidas en este proyecto!
