@@ -1,5 +1,5 @@
 // pre-entrega2
-let usuariosMock = [
+const usuariosMock = [
   {
     nombre: "pablo",
     apellidos: " burgos",
