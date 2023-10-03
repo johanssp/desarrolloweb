@@ -1,23 +1,28 @@
+// pre-entrega1
 let ver = prompt(
   "Que pelicula deseas ver? \n 1.-evil dead \n 2.-rambo 1 \n 3.-bajo la misma estrella \n 4.-transformers \n 5.-madagascar  \n por favor ingresa un nombre de pelicula"
 );
 let mostrarPrompt = false;
 
 switch (ver) {
-  case "evil dead":
-    console.log("La pelicula que quieres ver es de terror");
+  case "1":
+    console.log("La pelicula que quieres ver es de terror/ evil dead");
     break;
-  case "rambo 1":
-    console.log("La pelicula que quieres ver es de accion");
+  case "2":
+    console.log("La pelicula que quieres ver es de accion/ rambo");
     break;
-  case "bajo la misma estrella":
-    console.log("La pelicula que quieres ver es de romance");
+  case "3":
+    console.log(
+      "La pelicula que quieres ver es de romance/ bajo la misma estrella"
+    );
     break;
-  case "transformers":
-    console.log("La pelicula que quieres ver es de ciencia ficcion");
+  case "4":
+    console.log(
+      "La pelicula que quieres ver es de ciencia ficcion/ transformers"
+    );
     break;
-  case "madagascar":
-    console.log("La pelicula que quieres ver es de animacion");
+  case "5":
+    console.log("La pelicula que quieres ver es de animacion/ madagascar");
     break;
 
   default:
@@ -31,24 +36,28 @@ while (mostrarPrompt) {
     "Ingrese una de estas peliculas correctamente \n 1.-evil dead \n 2.-rambo 1 \n 3.-bajo la misma estrella \n 4.-transformers \n 5.-madagascar \n"
   );
   switch (ver) {
-    case "evil dead":
-      console.log("La pelicula que quieres ver es de terror");
+    case "1":
+      console.log("La pelicula que quieres ver es de terror/ evil dead");
       mostrarPrompt = false;
       break;
-    case "rambo 1":
-      console.log("La pelicula que quieres ver es de accion");
+    case "2":
+      console.log("La pelicula que quieres ver es de accion/ rambo 1");
       mostrarPrompt = false;
       break;
-    case "bajo la misma estrella":
-      console.log("La pelicula que quieres ver es de romance");
+    case "3":
+      console.log(
+        "La pelicula que quieres ver es de romance/ bajo la misma estrella"
+      );
       mostrarPrompt = false;
       break;
-    case "transformers":
-      console.log("La pelicula que quieres ver es de ciencia ficcion");
+    case "4":
+      console.log(
+        "La pelicula que quieres ver es de ciencia ficcion/ transformers"
+      );
       mostrarPrompt = false;
       break;
-    case "madagascar":
-      console.log("La pelicula que quieres ver es de animacion");
+    case "5":
+      console.log("La pelicula que quieres ver es de animacion/ madagascar");
       mostrarPrompt = false;
       break;
 
@@ -62,16 +71,12 @@ while (mostrarPrompt) {
 let calidad = prompt(
   "¡En que calidad deseas ver tu pelicula ?\n 1.-1080 \n 2.-720 \n 3.-360 \n 4.-240 \n ingrese una calidad "
 );
-const calidad1 = 1080;
-const calidad2 = 720;
-const calidad3 = 360;
-const calidad4 = 240;
 
-if (calidad == 1080 || calidad == 720) {
+if (calidad == 1 || calidad == 2) {
   console.log("la calidad que escogiste es aceptable");
   alert("tu experiencia sera fantastica");
 }
-if (calidad == 360 || calidad == 240) {
+if (calidad == 3 || calidad == 4) {
   console.log("la calidad que escogiste es baja ");
   alert("tu experiencia no sera muy buena");
 }
