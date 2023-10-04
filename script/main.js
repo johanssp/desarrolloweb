@@ -1,6 +1,6 @@
 // pre-entrega1
 let ver = prompt(
-  "Que pelicula deseas ver? \n 1.-evil dead \n 2.-rambo 1 \n 3.-bajo la misma estrella \n 4.-transformers \n 5.-madagascar  \n por favor ingresa un nombre de pelicula"
+  "Que pelicula deseas ver? \n 1.-evil dead \n 2.-rambo 1 \n 3.-bajo la misma estrella \n 4.-transformers \n 5.-madagascar  \n por favor ingresa una opcion de pelicula"
 );
 let mostrarPrompt = false;
 
@@ -26,14 +26,14 @@ switch (ver) {
     break;
 
   default:
-    console.log("Ingrese una pelicula valida");
+    console.log("Ingrese una opcion valida");
     mostrarPrompt = true;
     break;
 }
 
 while (mostrarPrompt) {
   ver = prompt(
-    "Ingrese una de estas peliculas correctamente \n 1.-evil dead \n 2.-rambo 1 \n 3.-bajo la misma estrella \n 4.-transformers \n 5.-madagascar \n"
+    "Ingrese una de estas opciones de peliculas correctamente \n 1.-evil dead \n 2.-rambo 1 \n 3.-bajo la misma estrella \n 4.-transformers \n 5.-madagascar \n"
   );
   switch (ver) {
     case "1":
@@ -69,7 +69,7 @@ while (mostrarPrompt) {
 }
 
 let calidad = prompt(
-  "¡En que calidad deseas ver tu pelicula ?\n 1.-1080 \n 2.-720 \n 3.-360 \n 4.-240 \n ingrese una calidad "
+  "¡En que calidad deseas ver tu pelicula ?\n 1.-1080 \n 2.-720 \n 3.-360 \n 4.-240 \n ingrese una opcion "
 );
 
 if (calidad == 1 || calidad == 2) {
