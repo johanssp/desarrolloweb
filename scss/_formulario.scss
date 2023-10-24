@@ -13,13 +13,13 @@
   align-items: center;
   box-shadow:$shadow;
   .input{
-  border:2px;
-  padding: 15px 120px;
-  border-radius: 5px;
-  font-size: 30px;
-  justify-content: center;
-  text-align:center;
-  }   
+    border:2px;
+    padding: 15px 120px;
+    border-radius: 5px;
+    font-size: 30px;
+    justify-content: center;
+    text-align:center;
+  }
 }
 .ingresar{
   background-color: blueviolet;
@@ -31,7 +31,6 @@
   cursor: pointer;
   &:active{
       background-color: rgba(168, 87, 244);
-
   }    
 }
 .formulario2{

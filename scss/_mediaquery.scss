@@ -100,13 +100,17 @@
       align-items: center;
       box-shadow: $shadow; 
       input{
-          border:2px;
-          padding: 10px 50px;
-          border-radius: 5px;
-          font-size: 30px;
-          justify-content: center;
-          text-align:center;
-        }  
+        border:2px;
+        padding: 10px 50px;
+        border-radius: 5px;
+        font-size: 30px;
+        justify-content: center;
+        text-align:center;
+      }
+      .mensaje-login{
+        font-size: 10px;
+        color: red;
+      } 
     }
     .formulario2{
       border: solid  black;

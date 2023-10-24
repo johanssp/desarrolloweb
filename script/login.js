@@ -1,23 +1,39 @@
 //pre-entrega2
-const correo = prompt("ingrese su correo");
 
-const user = usuariosMock.find((unlogin) => {
-  return unlogin.email === correo.trim().toLowerCase();
-  // devuelve al usuario que coincide con el correo ingresado o devuelve undefined
+const form = document.getElementById("form");
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  valorInputs();
+  usuarioValido();
 });
 
-// validamos que exista el usuario
-if (user) {
-  // se pide la contraseña despues de validar que el correo exista en la data mockeada
-  const password = prompt("ingrese su contraseña");
-  // en este if se valida la contraseña
-  if (user.clave === password.trim().toLowerCase()) {
-    // si existe el usuario se devuelve un alert con el nombre y apellido y por consola los datos
-    alert("bienvenido/a " + user.nombre + " " + user.apellidos);
-    console.log(user);
+const valorInputs = () => {
+  // tomamos valor de correo
+  const inputEmail = document.getElementById("email").value;
+  // tomamos valor de contraseña
+  const inputPassword = document.getElementById("password").value;
+  return {
+    inputEmail,
+    inputPassword,
+  };
+};
+
+const usuarioValido = () => {
+  const user = usuariosMock.find((user) => {
+    return user.email === valorInputs().inputEmail.trim().toLowerCase();
+    // devuelve al usuario que coincide con el correo ingresado o devuelve undefined
+  });
+  // validamos que exista el usuario
+  if (user) {
+    // en este if se valida la contraseña
+    if (user.clave === valorInputs().inputPassword.trim().toLowerCase()) {
+      // si existe el usuario se devuelve un alert con el nombre y apellido y por consola los datos
+      alert("Bienvenido/a" + user.name);
+      console.log(user);
+    } else {
+      document.getElementById("mensaje").innerHTML = "Contraseña incorrecta";
+    }
   } else {
-    alert("contraseña no valida");
+    document.getElementById("mensaje").innerHTML = "Correo no existe";
   }
-} else {
-  alert("correo " + correo + " no existe");
-}
+};

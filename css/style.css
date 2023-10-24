@@ -182,6 +182,7 @@ p {
   align-items: center;
   box-shadow: 2px 0px 10px 5px rgba(18, 250, 41, 0.4784313725);
 }
+
 .formulario1 .input {
   border: 2px;
   padding: 15px 120px;
@@ -189,6 +190,11 @@ p {
   font-size: 30px;
   justify-content: center;
   text-align: center;
+}
+
+.formulario1 .mensaje-login{
+  font-size: 16px;
+  color: rgba(177, 11, 11, 0.845);
 }
 
 .ingresar {
