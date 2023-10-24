@@ -28,7 +28,7 @@ const usuarioValido = () => {
     // en este if se valida la contraseña
     if (user.clave === valorInputs().inputPassword.trim().toLowerCase()) {
       // si existe el usuario se devuelve un alert con el nombre y apellido y por consola los datos
-      alert("Bienvenido/a" + user.name);
+      alert("Bienvenido/a " + user.nombre);
       console.log(user);
     } else {
       document.getElementById("mensaje").innerHTML = "Contraseña incorrecta";
