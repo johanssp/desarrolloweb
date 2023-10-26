@@ -697,8 +697,8 @@ p {
   }
   .formulario1 {
     border: solid black;
-    width: 260px;
-    height: 240px;
+    width: 280px;
+    height: 260px;
     padding: 20px 60px;
     margin: 10px auto;
     background-color: black;
@@ -718,6 +718,11 @@ p {
     justify-content: center;
     text-align: center;
   }
+  .formulario1 .mensaje-login{
+    font-size: 15px;
+  }
+}
+
   .formulario2 {
     border: solid black;
     width: 260px;
@@ -741,6 +746,7 @@ p {
     justify-content: center;
     text-align: center;
   }
+  
   h1 {
     font-size: 30px;
   }
@@ -756,7 +762,7 @@ p {
   .titulo2 {
     font-size: 22px;
   }
-}
+
 @media (min-width: 640px) {
   head {
     background-color: #000000;
