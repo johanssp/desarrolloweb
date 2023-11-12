@@ -312,6 +312,8 @@ p {
   .cabeza .buscar .barra {
     font-size: 30px;
     color: white;
+    background-color: #75fb4c;
+    border-radius: 10px;
   }
   .cabeza .buscar .buscador {
     width: 150px;
@@ -460,6 +462,8 @@ p {
   .cabeza .buscar .barra {
     font-size: 30px;
     color: white;
+    background-color: #75fb4c;
+    border-radius: 10px;
   }
   .cabeza .buscar .buscador {
     width: 180px;
@@ -631,6 +635,8 @@ p {
   .cabeza .buscar .barra {
     font-size: 30px;
     color: white;
+    background-color: #75fb4c;
+    border-radius: 10px;
   }
   .cabeza .buscar .buscador {
     width: 200px;
@@ -804,6 +810,8 @@ p {
   .cabeza .buscar .barra {
     font-size: 30px;
     color: white;
+    background-color: #75fb4c;
+    border-radius: 10px;
   }
   .cabeza .buscar .buscador {
     width: 180px;
@@ -947,6 +955,9 @@ p {
   .cabeza .buscar .barra {
     font-size: 30px;
     color: white;
+    background-color: #75fb4c;
+    border-radius: 10px;
+  }
   }
   .cabeza .buscar .buscador {
     width: 180px;
@@ -1004,7 +1015,7 @@ p {
   .subtitulo2 {
     font-size: 30px;
   }
-}
+
 @media (min-width: 1100px) {
   head {
     background-color: #000000;
@@ -1045,7 +1056,9 @@ p {
   }
   .cabeza .buscar .barra {
     font-size: 30px;
-    color: white;
+    color:white;
+    background-color: #75fb4c;
+    border-radius: 10px;
   }
   .cabeza .buscar .buscador {
     width: 300px;
