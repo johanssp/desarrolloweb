@@ -1,0 +1,63 @@
+
+[
+  {
+    "nombre": "javier",
+   "apellido": " pulgar",
+    "email": "javierpulgar@gmail.com",
+   "clave": "javier123"
+  },
+  {
+    "nombre": "felipe",
+   "apellido": "fuentes",
+    "email": "felipefuentes@gmail.com",
+   "clave": "felipe"
+  },
+  {
+    "nombre": "benjamin",
+   "apellido": "sanzana",
+    "email": "bemjaminsanzana@gmail.com",
+   "clave": "bemjamin123"
+  },
+  {
+    "nombre": "ines",
+   "apellido": "pulgar",
+    "email": "inespulgar@gmail.com",
+   "clave": "ines123"
+  },
+  {
+    "nombre": "marcos",
+   "apellido": "palma",
+    "email": "marcospalma@gmail.com",
+   "clave": "marcos123"
+  },
+  {
+    "nombre": "michel",
+   "apellido": "fuentes",
+    "email": "michelfuentes@gmail.com",
+   "clave": "michel123"
+  },
+  {
+    "nombre": "carlos",
+   "apellido": "fernandez",
+    "email": "carlosfernandez@gmail.com",
+   "clave": "carlos123"
+  },
+  {
+    "nombre": "miguel",
+   "apellido": "gonzales",
+    "email": "miguelgonzales@gmail.com",
+   "clave": "brayan123"
+  },
+  {
+    "nombre": "alexis",
+   "apellido": "sanchez",
+    "email": "alexissanchez@gmail.com",
+   "clave": "alexis123"
+  },
+  {
+    "nombre": "arturo",
+   "apellido": "vidal",
+    "email": "arturovidal@gmail.com",
+   "clave": "arturo123"
+  }
+]

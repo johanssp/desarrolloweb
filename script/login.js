@@ -19,6 +19,9 @@ const valorInputs = () => {
 };
 
 const usuarioValido = () => {
+  fetch("/script/usuarios.json")
+    .then((res) => res.json())
+    .then((data) => {});
   const user = usuariosMock.find((user) => {
     return user.email === valorInputs().inputEmail.trim().toLowerCase();
 
