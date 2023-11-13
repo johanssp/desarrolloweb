@@ -16,7 +16,7 @@ const valorInputs = () => {
   };
 };
 let arrayUsers;
-const usuario2 = fetch("/script/usuarios.json")
+const usuario2 = fetch("../script/usuarios.json")
   .then((res) => res.json())
   .then((data) => {
     arrayUsers = data;
