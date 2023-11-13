@@ -25,7 +25,6 @@ const usuario2 = fetch("/script/usuarios.json")
 const usuarioValido = () => {
   const user = arrayUsers.find((user) => {
     return user.email === valorInputs().inputEmail.trim().toLowerCase();
-
     // devuelve al usuario que coincide con el correo ingresado o devuelve undefined
   });
   // validamos que exista el usuario
