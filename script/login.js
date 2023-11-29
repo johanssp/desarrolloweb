@@ -15,6 +15,8 @@ const valorInputs = () => {
     inputPassword,
   };
 };
+// este fetch ya no se utiliza, porque pregunto por el usuario directamente desde el localstorage, dejo esta fraccion de codigo
+// para que se vea que en el proyecto se utilizaron promesas
 let arrayUsers;
 const usuario2 = fetch("./script/usuarios.json")
   .then((res) => res.json())
@@ -22,21 +24,22 @@ const usuario2 = fetch("./script/usuarios.json")
     arrayUsers = data;
   });
 
+const usuariosLocal = JSON.parse(localStorage.getItem("user2") || []);
 const usuarioValido = () => {
-  const user = arrayUsers.find((user) => {
-    return user.email === valorInputs().inputEmail.trim().toLowerCase();
+  const user = usuariosLocal.find((user) => {
+    return user.correo === valorInputs().inputEmail.trim().toLowerCase();
     // devuelve al usuario que coincide con el correo ingresado o devuelve undefined
   });
   // validamos que exista el usuario
   if (user) {
     Swal.fire("Bienvenido/a " + user.nombre);
     // en este if se valida la contraseña
-    if (user.clave === valorInputs().inputPassword.trim().toLowerCase()) {
+    if (user.contraseña === valorInputs().inputPassword.trim().toLowerCase()) {
       // si existe el usuario  se guarda en local storange
-      const correo = localStorage.setItem("correo", valorInputs().inputEmail);
-      const gg = JSON.stringify(user);
-      const clav2 = localStorage.setItem("clave", valorInputs().inputPassword);
-      const gt = JSON.stringify(user.clave);
+      sessionStorage.setItem("correo", valorInputs().inputEmail);
+      JSON.stringify(user);
+      sessionStorage.setItem("clave", valorInputs().inputPassword);
+      JSON.stringify(user.clave);
       Swal.fire("Bienvenido/a " + user.nombre);
     } else {
       document.getElementById("mensaje").innerHTML = "Contraseña incorrecta";

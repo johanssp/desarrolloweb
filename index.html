@@ -33,7 +33,7 @@
         </div>
         <div id="buscador3" class="buscar">
           <input id="buscador2" class="buscador" type="text" name="buscar" />
-          <button id="boton3" class="barra">buscar</button>
+          <button id="boton3" type="submit" class="barra">buscar</button>
         </div>
         <nav>
           <i class="fa-solid fa-bars"></i>
@@ -122,7 +122,7 @@
         </form>
       </div>
       <div class="caja2">
-        <form class="formulario2">
+        <form class="formulario2" id="formulario">
           <h2 class="titulo2">Registro de Datos</h2>
           <div>
             <input
@@ -146,7 +146,7 @@
             <input
               type="text"
               name="Email"
-              id="Email"
+              id="correo"
               placeholder="ingrese su email"
               required
             />
@@ -155,12 +155,12 @@
             <input
               type="text"
               name="Contraseña"
-              id="Contraseña"
+              id="contraseña"
               placeholder="ingrese su contraseña"
               required
             />
           </div>
-          <button class="registro">Registrarse</button>
+          <button class="registro" id="tegistro">Registrarse</button>
         </form>
       </div>
     </main>
@@ -193,6 +193,7 @@
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./script/registro.js"></script>
     <script src="./script/usuarios.js"></script>
     <script src="./script/login.js"></script>
     <!--<script src="./script/main.js"></script>-->
