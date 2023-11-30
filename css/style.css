@@ -866,6 +866,7 @@ p {
   .formulario2 {
     border: solid black;
     width: 500px;
+    height: 500px;
     padding: 40px 60px;
     margin: 10px auto;
     background-color: black;
