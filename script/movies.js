@@ -20,14 +20,12 @@ const getMovies = async () => {
   data = await res.json();
 
   const input = document.getElementById("buscador");
-  console.log(input);
   input.addEventListener("keypress", (e) => {
     if (e.key !== "Enter") return;
     const value = e.target.value.toLowerCase();
     container.innerHTML = "";
     const filtro = data.filter((e) => e.pelicula.toLowerCase().includes(value));
     filtro.map((element) => {
-      console.log(element);
       render(element);
     });
   });
