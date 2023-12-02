@@ -220,6 +220,10 @@ p {
   background-color: rgb(168, 87, 244);
 }
 
+.caja2{
+  margin-top: 80px;
+    margin-bottom: 80px;
+}
 .formulario2 {
   border: solid black;
   width: 600px;
