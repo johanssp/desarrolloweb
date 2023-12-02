@@ -31,71 +31,19 @@
         <div class="pp">
           <p class="ppp">rincon del cine</p>
         </div>
-        <div id="buscador3" class="buscar">
-          <input id="buscador2" class="buscador" type="text" name="buscar" />
-          <button id="boton3" type="submit" class="barra">buscar</button>
-        </div>
+
         <nav>
           <i class="fa-solid fa-bars"></i>
           <ul class="enlaces">
             <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./pagina/registro.html">Registro</a></li>
             <li><a href="./pagina/nosotros.html">Nosotros</a></li>
             <li><a href="./pagina/pelicula.html">Peliculas</a></li>
-            <li><a href="./pagina/series.html">Series</a></li>
-            <li><a href="./pagina/anime.html">Anime</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <main>
-      <h1>Registro e Inicio de Sesion</h1>
-      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              class="imagen-portada"
-              src="./multimedia/imagen/logopeliculas.jpg"
-              class="d-block w-100"
-              alt="logopeliculas"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="imagen-portada"
-              src="./multimedia/imagen/logoseries1.jpg"
-              class="d-block w-100"
-              alt="logoseries1"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="imagen-portada"
-              src="./multimedia/imagen/logoanime.jpg"
-              class="d-block w-100"
-              alt="logoanime"
-            />
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-
       <div class="caja">
         <form class="formulario1" id="form">
           <h2 class="titulo2">Inicio de Sesion</h2>
@@ -110,7 +58,7 @@
           </div>
           <div>
             <input
-              type="text"
+              type="password"
               name="Contraseña"
               id="password"
               placeholder="ingrese su contraseña"
@@ -119,48 +67,6 @@
           </div>
           <p id="mensaje" class="mensaje-login"></p>
           <button class="ingresar" type="submit">ingresar</button>
-        </form>
-      </div>
-      <div class="caja2">
-        <form class="formulario2" id="formulario">
-          <h2 class="titulo2">Registro de Datos</h2>
-          <div>
-            <input
-              type="text"
-              name="nombre"
-              id="nombre"
-              placeholder="ingrese su nombre"
-              required
-            />
-          </div>
-          <div>
-            <input
-              type="text"
-              name="Apellido"
-              id="apellido"
-              placeholder="ingrese su apellido"
-              required
-            />
-          </div>
-          <div>
-            <input
-              type="text"
-              name="Email"
-              id="correo"
-              placeholder="ingrese su email"
-              required
-            />
-          </div>
-          <div>
-            <input
-              type="text"
-              name="Contraseña"
-              id="contraseña"
-              placeholder="ingrese su contraseña"
-              required
-            />
-          </div>
-          <button class="registro" id="tegistro">Registrarse</button>
         </form>
       </div>
     </main>

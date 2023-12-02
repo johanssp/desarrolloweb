@@ -23,4 +23,5 @@ op.addEventListener("submit", (e) => {
   });
   localStorage.setItem("user2", JSON.stringify(user1));
   Swal.fire("usuario registrado");
+  location.href = "/index.html";
 });

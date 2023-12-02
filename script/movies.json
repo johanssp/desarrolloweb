@@ -1,0 +1,130 @@
+
+[
+  
+  {
+    "pelicula": "evil dead",
+   "genero": "terror",
+   "imagen": "../multimedia/imagen/terror 1.jpg"
+  },
+  {
+   "pelicula": "la noche del demonio",
+   "genero": "terror",
+   "imagen": "../multimedia/imagen/terror2.webp"
+  },
+  {
+    "pelicula": "scream 6",
+    "genero": "terror",
+    "imagen": "../multimedia/imagen/terror3.jpg"
+  },
+  {
+    "pelicula": "chuky el culto",
+    "genero": "terror",
+    "imagen": "../multimedia/imagen/terror4.jpg"
+  },
+  {
+    "pelicula": "saw",
+    "genero": "terror",
+    "imagen": "../multimedia/imagen/terror5saw.jpg"
+  },
+  {
+    "pelicula": "duro de matar",
+    "genero": "accion",
+    "imagen": "../multimedia/imagen/accion1.jpg"
+  },
+  {
+    "pelicula": "rambo 1",
+    "genero": "accion",
+    "imagen": "../multimedia/imagen/accion2stalone.jpg"
+  },
+  {
+    "pelicula": "rocky 2",
+    "genero": "accion",
+    "imagen": "../multimedia/imagen/accion3rocky2.jpg"
+  },
+  {
+    "pelicula": "rompiendo las reglas",
+    "genero": "accion",
+    "imagen": "../multimedia/imagen/accion4rompiendo.jpg"
+  },
+  {
+    "pelicula": "rapido y furiosos 1",
+    "genero": " accion",
+    "imagen": "../multimedia/imagen/accion5rapido y furioso.jpg"
+  },
+  {
+    "pelicula": "liga de la justicia",
+    "genero": "ciencia ficcion",
+    "imagen": "../multimedia/imagen/ficcion1 liga.jpg"
+  },
+  {
+    "pelicula": "terminator",
+    "genero": "ciencia ficcion",
+    "imagen": "../multimedia/imagen/cficcion2termineitor.jpg"
+  },
+  {
+    "pelicula": "jurassic world",
+    "genero": "ciencia ficcion",
+    "imagen": "../multimedia/imagen/cficcion4jurassicworld.jpg"
+  },
+  
+  {
+    "pelicula": "wonder woman",
+   "genero": "ciencia ficcion",
+   "imagen": "../multimedia/imagen/cficcion3wonder.jpg"
+  },
+  {
+    "pelicula": "transformes",
+   "genero": "ciencia ficcion",
+   "imagen": "../multimedia/imagen/cficcion5transfomes.jpg"
+  },
+  {
+    "pelicula": "el stand de los besos",
+   "genero": "romance",
+   "imagen": "../multimedia/imagen/romance1standdelos besos.jpg"
+  },
+  {
+    "pelicula":"el stand de los besos 2",
+   "genero": "romance",
+   "imagen": "../multimedia/imagen/romance2standbesos2.jpg"
+  },
+  {
+    "pelicula": "yo antes de ti",
+   "genero": "romance",
+   "imagen": "../multimedia/imagen/romance3yoantesdeti.jpg"
+  },
+  {
+    "pelicula": "bajo la misma estrella",
+   "genero": "romance",
+   "imagen": "../multimedia/imagen/romance4bajoestrella.jpg"
+  },
+  {
+    "pelicula": "10 cosas que odio de ti",
+   "genero": "romance",
+   "imagen": "../multimedia/imagen/romance5 10 cosas que odio de ti.jpg"
+  },
+  {
+    "pelicula": "ratatouille",
+   "genero": "animada",
+   "imagen": "../multimedia/imagen/animacion1raton.jpg"
+  },
+  {
+    "pelicula": "madagascar",
+   "genero": "animada",
+   "imagen": "../multimedia/imagen/animacion2madagascar1.jpg"
+  },
+  {
+    "pelicula": "los pitufos",
+   "genero": "animada",
+   "imagen": "../multimedia/imagen/animacion3pitufos.jpg"
+  },
+  {
+    "pelicula": "los super sonicos",
+   "genero": "animada",
+   "imagen": "../multimedia/imagen/animacion4supersonicos.jpg"
+  },
+  {
+    "pelicula": "rey leon",
+   "genero": "animada",
+   "imagen": "../multimedia/imagen/animacion5rey leon.jpg"
+  }
+]

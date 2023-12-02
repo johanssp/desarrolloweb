@@ -17,12 +17,6 @@ const valorInputs = () => {
 };
 // este fetch ya no se utiliza, porque pregunto por el usuario directamente desde el localstorage, dejo esta fraccion de codigo
 // para que se vea que en el proyecto se utilizaron promesas
-let arrayUsers;
-const usuario2 = fetch("./script/usuarios.json")
-  .then((res) => res.json())
-  .then((data) => {
-    arrayUsers = data;
-  });
 
 const usuariosLocal = JSON.parse(localStorage.getItem("user2") || []);
 const usuarioValido = () => {

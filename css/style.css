@@ -2,14 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Courgette&family=Tilt+Prism&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courgette&family=Tilt+Prism&display=swap");
-.productos {
+#movieImg {
   border-radius: 10px;
-  width: 100%;
-  height: 280px;
+  width: 400px;
+  height: 250px;
   object-fit: cover;
   background-size: cover;
 }
-.productos:hover {
+#movieImg:hover {
   transform: scale(1.2);
 }
 
@@ -56,7 +56,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
-  gap: 30px;
+  gap: 20px;
 }
 .cabeza nav .enlaces li a {
   text-decoration: none;
@@ -107,37 +107,44 @@ body {
   color: white;
 }
 
-h1 {
+.title {
   font-size: 40px;
   color: white;
+  
 }
 
 h2 {
   font-size: 30px;
   color: white;
+  
+  
 }
 
 /*terminos de rasgos generales de la pagina*/
 /*inicio de peliculas de la pagina*/
 .imagen-portada {
   width: 100%;
-  height: 400px;
+  height: 300px;
   border-radius: 1px;
   object-fit: cover;
   background-size: cover;
   justify-content: space-between;
 }
 
+
 p {
   font-size: 25px;
   color: white;
 }
 
-.tarjetas1 {
+#peliculas {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   text-align: center;
+  gap: 50px;
+  margin-top: 50px;
+  
 }
 
 .tarjetas2 {
@@ -154,7 +161,7 @@ p {
   text-align: center;
 }
 
-.tarjeta {
+.peliculas1 {
   width: 450px;
   justify-content: center;
   object-fit: cover;
@@ -168,6 +175,9 @@ p {
 
 /* termino de peliculas de la pagina*/
 /*inicio del formulario*/
+.caja{
+  margin: 150px 0 200px
+}
 .formulario1 {
   border: solid black;
   width: 600px;
@@ -687,17 +697,17 @@ p {
     background-size: cover;
     justify-content: space-between;
   }
-  .productos {
+  movieImg{
     border-radius: 10px;
     width: 100%;
     height: 150px;
     object-fit: cover;
     background-size: cover;
   }
-  .productos:hover {
+  movieImg:hover {
     transform: scale(1.2);
   }
-  .tarjeta {
+  peliculas {
     width: 260px;
   }
   .formulario1 {

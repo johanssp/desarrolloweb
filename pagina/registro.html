@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="En este sitio puedes ver los mejores contenidos de sus series favoritas"
+      content="aqui podras ver diferentes categorias des peliculas"
     />
-    <title>Series</title>
+    <title>Registro</title>
     <script
       src="https://kit.fontawesome.com/3dbe54504a.js"
       crossorigin="anonymous"
@@ -31,94 +31,60 @@
         <div class="pp">
           <p class="ppp">rincon del cine</p>
         </div>
-        <div class="buscar">
-          <label class="barra" for="buscar">buscar</label>
-          <input class="buscador" type="text" name="buscar" />
-        </div>
         <nav>
           <i class="fa-solid fa-bars"></i>
           <ul class="enlaces">
             <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./registro.html">Registro</a></li>
             <li><a href="./nosotros.html">Nosotros</a></li>
             <li><a href="./pelicula.html">Peliculas</a></li>
-            <li><a href="./series.html">Series</a></li>
-            <li><a href="./anime.html">Anime</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <main>
-      <h1>Series</h1>
-      <h2>Terror</h2>
-      <section class="tarjetas2">
-        <div class="tarjeta">
-          <img
-            class="productos"
-            src="../multimedia/imagen/serie1sabrina1.jpg"
-            alt="Sabrina"
-          />
-          <p>El mundo oculto de sabrina</p>
-        </div>
-        <div class="tarjeta">
-          <img
-            class="productos"
-            src="../multimedia/imagen/serie3dahmer.jpg"
-            alt="dahmer"
-          />
-          <p>Dahmer</p>
-        </div>
-        <div class="tarjeta">
-          <img
-            class="productos"
-            src="../multimedia/imagen/serie3The-Walking-Dead.jpg"
-            alt="the walking dead"
-          />
-          <p>The walking dead</p>
-        </div>
-        <div class="tarjeta">
-          <img
-            class="productos"
-            src="../multimedia/imagen/serie7merlina.jpg"
-            alt="merlina"
-          />
-          <p>Merlina</p>
-        </div>
-      </section>
-      <h2>Fantasia</h2>
-      <section class="tarjetas2">
-        <div class="tarjeta">
-          <img
-            class="productos"
-            src="../multimedia/imagen/serie2gotham.jpg"
-            alt="gotham"
-          />
-          <p>Gotham</p>
-        </div>
-        <div class="tarjeta">
-          <img
-            class="productos"
-            src="../multimedia/imagen/serie4strangerthing.png"
-            alt="stranger thing"
-          />
-          <p>Stranger thing</p>
-        </div>
-        <div class="tarjeta">
-          <img
-            class="productos"
-            src="../multimedia/imagen/serie5blinder.jpg"
-            alt="peaky blinders"
-          />
-          <p>Peaky blinders</p>
-        </div>
-        <div class="tarjeta">
-          <img
-            class="productos"
-            src="../multimedia/imagen/serie6vikingos.jpg"
-            alt="vikingos"
-          />
-          <p>Vikingos</p>
-        </div>
-      </section>
+      <div class="caja2">
+        <form class="formulario2" id="formulario">
+          <h2 class="titulo2">Registro de Datos</h2>
+          <div>
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="ingrese su nombre"
+              required
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              name="Apellido"
+              id="apellido"
+              placeholder="ingrese su apellido"
+              required
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              name="Email"
+              id="correo"
+              placeholder="ingrese su email"
+              required
+            />
+          </div>
+          <div>
+            <input
+              type="password"
+              name="Contraseña"
+              id="contraseña"
+              placeholder="ingrese su contraseña"
+              required
+            />
+          </div>
+          <button class="registro" id="tegistro">Registrarse</button>
+        </form>
+      </div>
     </main>
     <footer class="contactos">
       <div class="reclamos">
@@ -152,6 +118,12 @@
         />
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../script/registro.js"></script>
+    <script src="../script/usuarios.js"></script>
+    <script src="../script/login.js"></script>
+    <!--<script src="./script/main.js"></script>-->
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
